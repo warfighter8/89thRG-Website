@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>89th Royal Guard Gallery</title>
+<link href="style/universalClasses.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-image: url(images/back.jpg);
+	background-repeat: repeat;
+}
+
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+  <!-- SlidesJS Required: -->
+<script>
+   function visitHome()
+{
+       window.location='index.html';
+   }
+   function visitGallery()
+{
+       window.location='gallery.html';
+   }
+   function visitHowToJoin()
+{
+       window.location='http://89throyalguard.enjin.com/';
+   }
+   function visitAbout()
+{
+       window.location='index.html';
+   }
+    function team()
+{
+       window.location='ts3server://ts.wolfycraft.com?port=9987';
+   }
+function visitExtras()
+{
+       window.location='extras.html';
+   }
+
+</script>
+<meta name="description" content="The TeamSpeak Server for the 89th Royal Guard" />
+<link rel="icon" 
+      type="image/ico" 
+      href="images/Shield_Red.ico" />
+</head>
+
+<body>
+<div class="navMenuContainer">
+  <table width="171" height="414" border="0">
+    <tr>
+      <td align="center"><button onclick="visitHome();">Home</button></td>
+    </tr>
+    <tr>
+      <td align="center"><button onclick="visitGallery();">Gallery</button></td>
+    </tr>
+    <tr>
+      <td align="center"><button onclick="visitHowToJoin();">Join</button></td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><button onclick="visitExtras();">Extras</button></td>
+    </tr>
+  </table>
+</div>
+<div class="tSConnectButton">
+  <button onclick="team();">Connect to the Server</button>
+</div>
+<div class="titleBoxOne">89th Royal Guard</div>
+<div class="titleBoxTwo">Teamspeak</div>
+<div class="bodyMain">
+    <div id="slides">
+      <img src="images/one.jpg" alt="">
+      <img src="images/two.jpg" alt="">
+      <img src="images/three.jpg" alt="">
+      <img src="images/four.jpg" alt="">
+      <img src="images/five.jpg" alt="">
+      <img src="images/six.jpg" alt="">
+      <img src="images/seven.jpg" alt="">
+      <img src="images/eight.jpg" alt="">
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="Scripts/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
+</div>
+<div class="logoHolder"><a href="index.html"><img src="images/GBsig.jpg" width="180" height="100" alt="An Awesome Logo" /></a></div>
+</body>
+</html>

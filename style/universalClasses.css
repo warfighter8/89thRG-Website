@@ -1,0 +1,95 @@
+@charset "utf-8";
+@import url("../webfonts/Mutlu_Ornamental/stylesheet.css");
+@import url("../webfonts/Tangerine_Regular/stylesheet.css");
+@import url("../webfonts/Tangerine_Bold/stylesheet.css");
+
+
+
+
+.navMenuContainer {
+	background-color: #F1F1D4;
+	position: absolute;
+	text-align: center;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	width: 178px;
+	height: 476px;
+	top: 182px;
+	left: 9px;
+}
+.bodyMain {
+	position: absolute;
+	left: 223px;
+	top: 269px;
+	width: 1127px;
+	height: 482px;
+	text-align: center;
+	font-size: 25px;
+}
+.logoHolder {
+	position: absolute;
+	width: 183px;
+	height: 103px;
+	top: 20px;
+	left: 2px;
+}
+
+.teamSpeakWrapper {
+	position: absolute;
+	left: 1386px;
+	top: 195px;
+	background-color: #F1F1D4;
+	width: 0px;
+	height: 513px;
+}
+.titleBoxOne {
+	position: absolute;
+	left: 196px;
+	top: 4px;
+	height: 81px;
+	width: 1193px;
+	text-align: center;
+	font-family: "Tangerine Bold";
+	font-size: 70px;
+	color: #F00;
+}
+.titleBoxTwo {
+	position: absolute;
+	left: 195px;
+	top: 89px;
+	height: 66px;
+	width: 1194px;
+	text-align: center;
+	font-family: "Tangerine Bold";
+	font-size: 61px;
+	color: #F00;
+}
+
+
+.tSConnectButton {
+	position: absolute;
+	left: 195px;
+	top: 200px;
+	width: 1192px;
+	height: 45px;
+	text-align: center;
+	overflow: visible;
+}
+.titleBox {
+	position: absolute;
+	width: 866px;
+	height: 133px;
+	left: 216px;
+	top: 19px;
+	font-family: "Mutlu Ornamental";
+	font-size: 55px;
+}
+.downTeamSpeak {
+	position: absolute;
+	left: 195px;
+	top: 179px;
+	width: 1192px;
+	text-align: center;
+}

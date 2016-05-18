@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>template</title>
+<link href="style/universalClasses.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-image: url(images/back.jpg);
+}
+</style>
+<script>
+   function visitHome()
+{
+       window.location='index.html';
+   }
+   function visitGallery()
+{
+       window.location='gallery.html';
+   }
+   function visitHowToJoin()
+{
+       window.location='http://89throyalguard.enjin.com/';
+   }
+   function visitAbout()
+{
+       window.location='about.html';
+   }
+    function team()
+{
+       window.location='ts3server://ts.wolfycraft.com?port=9987';
+   }
+function visitExtras()
+{
+       window.location='extras.html';
+   }
+   function downTS()
+{
+       window.location='index.html';
+   }
+
+</script>
+</head>
+
+<body>
+<div class="titleBoxOne">89th Royal Guard</div>
+<div class="titleBoxTwo">Teamspeak</div>
+<div class="logoHolder"><a href="index.html"><img src="images/GBsig.jpg" width="180" height="100" alt="An Awesome Logo" /></a></div>
+<div class="navMenuContainer">
+ <table width="171" height="414" border="0">
+    <tr>
+      <td align="center"><button onclick="visitHome();">Home</button></td>
+    </tr>
+    <tr>
+      <td align="center"><button onclick="visitGallery();">Gallery</button></td>
+    </tr>
+    <tr>
+      <td align="center"><button onclick="visitHowToJoin();">Join</button></td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><button onclick="visitExtras();">Extras</button></td>
+    </tr>
+  </table>
+</div>
+<div class="tSConnectButton">
+<button onclick="team();">Connect to the Server</button>
+</div>
+<div class="bodyMain">Content for  class "bodyMain" Goes Here</div>
+</body>
+</html>
